@@ -1,0 +1,26 @@
+[
+    {
+      "text": "主页",
+      "to": { "name": "home" }
+    },
+    {
+      "text": "分类",
+      "to": { "name": "category" }
+    },
+    {
+      "text": "个人",
+      "to": { "name": "self" }
+    },
+    {
+      "text": "时间线",
+      "to": { "name": "timeline" }
+    },
+    {
+      "text": "链接",
+      "to": { "name": "link" }
+    },
+    {
+      "text": "底线",
+      "href": "#footer"
+    }
+  ]
