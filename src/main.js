@@ -6,7 +6,7 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import marked from 'marked'
 import hljs from 'highlight.js'
-import 'highlight.js/styles/tomorrow.css';
+import 'highlight.js/styles/atom-one-dark.css';
 import BaseBtn from '@/components/base/Btn'
 
 Vue.component(BaseBtn.name, BaseBtn)
