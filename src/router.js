@@ -5,7 +5,6 @@ import Home from './views/Home.vue'
 import Article from './views/Article.vue'
 import Category from './views/Category.vue'
 import Self from './views/Self.vue'
-import Timeline from './views/Timeline.vue'
 import Collection from './views/Collection.vue'
 
 
@@ -33,11 +32,6 @@ export default new Router({
           path: 'self',
           name: 'self',
           component: Self
-        },
-        {
-          path: 'timeline',
-          name: 'timeline',
-          component: Timeline
         },
         {
           path: 'collection',

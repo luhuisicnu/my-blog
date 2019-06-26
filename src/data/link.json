@@ -12,10 +12,6 @@
       "to": { "name": "self" }
     },
     {
-      "text": "时间线",
-      "to": { "name": "timeline" }
-    },
-    {
       "text": "收藏",
       "to": { "name": "collection" }
     },

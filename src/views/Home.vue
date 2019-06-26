@@ -1,6 +1,6 @@
 <template>
     <div>
-      <v-card v-for="(article, index) in articles" :key="article.title" class="my-5">
+      <v-card v-for="(article, index) in queryArticles" :key="article.title" class="my-5">
         <v-img
           :src="require(`@/assets/images/${article.image}`)"
           aspect-ratio="3.75"
@@ -21,6 +21,14 @@ export default {
     }),
     computed: {
       ...mapState(['articles']),
+      queryArticles () {
+        if (this.$route.params.tag) {
+          return this.articles.filter((item) => {
+            return item.tag.indexOf(this.$route.params.tag) > -1
+          })
+        }
+        return this.articles
+      }
     },
 }
 </script>

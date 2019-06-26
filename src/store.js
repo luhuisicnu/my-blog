@@ -11,6 +11,10 @@ export default new Vuex.Store({
     links: require('@/data/link.json'),
     articles,
     collection,
+    myself: {
+      name: '一进制',
+      email: 'luhuisicnu@163.com',
+    },
   },
   mutations: {
     setDrawer: (state, payload) => (state.drawer = payload),
