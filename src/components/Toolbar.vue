@@ -86,7 +86,12 @@
       onClick (e, item) {
         e.stopPropagation()
 
+        if (item.refresh) {
+          this.$router.go(0)
+          return
+        }
         if (item.to || !item.href) return
+        
 
         this.$vuetify.goTo(item.href)
       }

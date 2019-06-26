@@ -18,5 +18,9 @@
     {
       "text": "底线",
       "href": "#footer"
+    },
+    {
+      "text": "刷新",
+      "refresh": true
     }
   ]
