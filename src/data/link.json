@@ -16,8 +16,8 @@
       "to": { "name": "timeline" }
     },
     {
-      "text": "链接",
-      "to": { "name": "link" }
+      "text": "收藏",
+      "to": { "name": "collection" }
     },
     {
       "text": "底线",

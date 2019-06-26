@@ -6,7 +6,7 @@ import Article from './views/Article.vue'
 import Category from './views/Category.vue'
 import Self from './views/Self.vue'
 import Timeline from './views/Timeline.vue'
-import Link from './views/Link.vue'
+import Collection from './views/Collection.vue'
 
 
 Vue.use(Router)
@@ -40,9 +40,9 @@ export default new Router({
           component: Timeline
         },
         {
-          path: 'link',
-          name: 'link',
-          component: Link
+          path: 'collection',
+          name: 'collection',
+          component: Collection
         },
         {
           path: 'article/:index',
