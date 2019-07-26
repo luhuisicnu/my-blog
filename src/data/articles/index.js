@@ -4,9 +4,20 @@ import WebImage from './WebImage.md'
 import WebDatabase from './WebDatabase.md'
 import WebLog from './WebLog.md'
 import DeployFlaskWithDocker from './DeployFlaskWithDocker.md'
+import WhatIsCMDB from './WhatIsCMDB.md'
 
 
 export default [
+    {
+        author: '一进制',
+        title: '什么是CMDB',
+        summary: '本文与你分享我对CMDB的一些理解',
+        content: WhatIsCMDB,
+        image: 'mountaincabin.jpg',
+        date: '2019-07-26',
+        color: 'cyan',
+        tag: ['CMDB', '运维'],
+    },
     {
         author: '一进制',
         title: '全面拥抱unicode(Python3.0)',
