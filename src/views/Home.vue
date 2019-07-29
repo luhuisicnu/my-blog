@@ -1,10 +1,11 @@
 <template>
     <div>
       <v-card v-for="(article, index) in queryArticles" :key="article.title" class="my-5">
-        <v-img
+        <!-- <v-img
           :src="require(`@/assets/images/${article.image}`)"
           aspect-ratio="3.75"
-        ></v-img>
+        ></v-img> -->
+        <v-parallax :src="require(`@/assets/images/${article.image}`)" aspect-ratio="3.75"></v-parallax>
         <v-card-title>
           <h1><router-link :to="{ name: 'article', params: { index }}">{{ article.title }}</router-link></h1>
         </v-card-title>
